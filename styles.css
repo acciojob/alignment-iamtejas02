@@ -1,29 +1,30 @@
-table{
-	width : 100%
+table.middle {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: auto;
 }
 
-
-.center{
-	text-align: center;
+table.middle td {
+  border: 1px solid black;
+  padding: 1px;
+  spacing: 1px;
 }
 
-.right{
-	text-align: right
+/* Alignments */
+.left {
+  text-align: left;
+}
+.center {
+  text-align: center;
+}
+.right {
+  text-align: right;
 }
 
-
-#table-2 td{
- height:20px
+/* Colored rows */
+.green {
+  background-color: green;
 }
-
-#table-3 img{
-height :100px
-}
-
-#tr1 {
-	background-color : green;
-}
-
-#tr3{
-	background-color : blue;
+.blue {
+  background-color: blue;
 }
